@@ -63,7 +63,7 @@ a:hover{
 }
 
 #rodape{
-    background-color: green;
+    background-color: lightgray;
     clear: none;
     text-align:center;
     padding: 15px;
@@ -124,3 +124,4 @@ h3{
     padding: 5px;
     border-bottom: 1px dotted #ccc;
 }
+
