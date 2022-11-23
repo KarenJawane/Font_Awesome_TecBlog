@@ -1,3 +1,21 @@
+font-face {
+    font-family: 'Beardsons Normal';
+    src: url('BeardsonsNormal.woff2') format('woff2'),
+        url('BeardsonsNormal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Cn';
+    src: url('Roboto-Condensed.woff2') format('woff2'),
+        url('Roboto-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -73,6 +91,8 @@ a:hover{
     padding: 20px;
     margin-bottom: 20px;
     background-color: white;
+    
+    
 }
 h2{
     color: #f7b600;
@@ -123,5 +143,17 @@ h3{
     font-size: 0.8em;
     padding: 5px;
     border-bottom: 1px dotted #ccc;
+    
+}
+.Abc{
+    font-family: 'Roboto Bk';
+    font-weight: 900;
+    font-style: normal;
+}
+
+.bear{
+    font-family: 'Beardsons Normal';
+    font-weight: normal;
+    font-style: normal;
 }
 
